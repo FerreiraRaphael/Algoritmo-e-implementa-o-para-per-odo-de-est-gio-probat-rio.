@@ -16,3 +16,15 @@ Algoritmo e implementação para período de estágio probatório. () Responsáv
 
 - 3 Classe Periodo
   - `new Periodo(LocalDate dataInicial, LocalDate dataFinal)`
+  - `dataInicial`: Data pelo qual o período começa a ser contado
+  - `dataFinal`: Data pelo qual o período para de ser contado
+  - Métodos
+    - `long dias` retorna o número de dias do período
+      - Ex: 
+      ```java
+Periodo periodo;
+LocalDate dataFinal = LocalDate.of(2016,2,28);
+LocalDate dataInicial  = LocalDate.of(2016,2,21);
+periodo = new Periodo(dataInicial ,dataFinal);
+assertEquals(periodo.dias(), 7);
+```
