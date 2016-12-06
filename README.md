@@ -4,7 +4,8 @@ Algoritmo e implementação para período de estágio probatório. () Responsáv
 # Como usar
 
 - 1 Baixe o .jar e inclua no seu projeto
-Download .jar (1.1): https://github.com/FerreiraRaphael/AlgoritmoEstagioProbatorio/releases/download/1.1/estagioProbatorio.jar
+
+  Download .jar (1.1): https://github.com/FerreiraRaphael/AlgoritmoEstagioProbatorio/releases/download/1.1/estagioProbatorio.jar
 
 - 2 Classe EstagioProbatorio
   - `new EstagioProbatorio(EstagioProbatorio(List<Periodo> periodosAfastamento, LocalDate dataInicial))`
