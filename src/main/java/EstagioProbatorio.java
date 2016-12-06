@@ -22,7 +22,7 @@ public class EstagioProbatorio {
         return dataFinal;
     }
 
-    public EstagioProbatorio(List<Periodo> periodos, LocalDate dataInicial, LocalDate dataFinal){
+    public EstagioProbatorio(List<Periodo> periodos, LocalDate dataInicial){
         ListaPeriodos lista = new ListaPeriodos(periodos);
         AlgoritmoEstagaioProbatorio algoritmo = new AlgoritmoEstagaioProbatorio(dataInicial, lista.getPeriodos());
         this.periodos = lista.getPeriodos();
